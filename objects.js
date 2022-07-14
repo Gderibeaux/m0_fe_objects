@@ -5,7 +5,7 @@
 // the desired result. To check your work, run this
 // file in your Terminal.
 
-foods = {
+ var foods = {
   apples: 23, 
   grapes: 507, 
   eggs: 48
@@ -14,18 +14,22 @@ foods = {
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+object.keys(foods);
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+object.values(foods);
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
 // YOUR CODE HERE
+foods.grapes;
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
 // YOUR CODE HERE
+foods.oranges = 33
 
 
 #-------------------
@@ -40,15 +44,23 @@ foods = {
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 // Write code that logs your email object to the terminal.
-
+var email {
+  inbox: 100
+  starred: 25
+  Spam: 56
+  Trash: 70
+  Drafts: 5
+}
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
 // YOUR CODE HERE
+object.keys(email);
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
 // YOUR CODE HERE
+object.values(email);
 
 
 #-------------------
@@ -99,3 +111,6 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var email = ["inbox", 100, "trash", 70, "spam", 56]
+console.log(email)
